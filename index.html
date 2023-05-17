@@ -1,0 +1,86 @@
+<!-- Declaration specifies that this is an HTML5 document. -->
+<!DOCTYPE html>
+
+<!-- The root element of the HTML page. -->
+<html>
+
+<!-- Contains meta-information about the HTML document, such as the title displayed in the browser's title bar. -->
+
+<head>
+  <!-- Sets the title of the document, which is shown in the browser's title bar or tab. -->
+  <title>Ecenurun ilk web sayfasi</title>
+
+  <!-- Sets the favicon for the website, which is the small icon displayed in the browser's tab or title bar. -->
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- CSS -->
+  <style>
+    .container {
+      background-color: bisque;
+      max-width: 1024px;
+      margin: 0;
+      padding: 32px;
+    }
+  </style>
+</head>
+
+<!-- The <body> element contains the visible content of the HTML document. -->
+
+<body>
+  <main class="container">
+    <!-- Heading level 1, which is the largest heading. -->
+    <h1>Welcome to Ecenur's fantastic website!!!</h1>
+
+    <!-- Paragraph. -->
+    <p>This is a paragraph of text.</p>
+
+    <!-- Unordered list. -->
+    <ul>
+      <!-- List items within the unordered list. -->
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </main>
+</body>
+
+<!-- JavaScript goes inside here -->
+<script>
+  // Variables and Basic Arithmetic
+  let x = 5; // Declaring a variable 'x' using 'let'
+  console.log(x); // Output: 5
+  x = 12
+  console.log(x); // Output: 12
+
+  const y = 10; // Declaring a constant 'y' using 'const'
+
+  let sum = x + y; // Adding 'x' and 'y'
+  console.log(sum); // Output: 22
+
+  let product = x * y; // Multiplying 'x' and 'y'
+  console.log(product); // Output: 120
+
+  // if-else Statement
+  let age = 18;
+
+  if (age >= 18) {
+    console.log("You are an adult.");
+  } else {
+    console.log("You are a minor.");
+  }
+
+  // while Loop
+  let count = 0;
+
+  while (count < 5) {
+    console.log("Count:", count);
+    count++;
+  }
+
+  // for Loop
+  for (let i = 0; i < 5; i++) {
+    console.log("Iteration:", i);
+  }
+</script>
+
+</html>
